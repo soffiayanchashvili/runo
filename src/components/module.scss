@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.firstpage {
+  background: url(../images/header-background.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.logo-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 80px;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.navIcons {
+  margin-left: 18px;
+  display: flex;
+  gap: 18px;
+}
+.navIcons::before {
+  content: "";
+  width: 0.5px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  margin-left: -18px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navIcons:last-child::after {
+  content: "";
+  width: 0.5px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  margin-left: 180px;
+}
+ul {
+  display: flex;
+  gap: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  list-style: none;
+  margin-right: 18px;
+}
+li:hover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #d4a373;
+  display: block;
+}
+.container {
+  padding: 70px;
+}
+.head_text {
+  text-align: left;
+  color: white;
+  padding-top: 200px;
+  width: 530px;
+}
+.Category {
+  display: inline-flex;
+  padding: 5px 10px;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #e5e5e5;
+  font-size: 10px;
+  font-weight: 700;
+}
+h1 {
+  font-family: Lora;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.head_p {
+  font-family: Lora;
+  font-size: 12px;
+}
+span {
+  width: 30px;
+  height: 1px;
+  background: #e5e5e5;
+  margin-top: 6px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+footer{
+    padding-top: 106px;
+    background: #212529;
+    color: white;
+}
+.space_around{
+    justify-content: space-around;
+}
+.footer_text{
+    text-align: left;
+    width: 180px;
+}
+.footer_text p{
+    margin-top: 20px;
+}
+.footer_text img{
+    margin-right: 15px;
+    margin-top: 18px;
+}
+.after_footer{
+    background: #343A40;
+    width: 100%;
+    height: 80px;
+    color: white;
+}
+.after_footer .container{
+    padding-bottom: 0px;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
